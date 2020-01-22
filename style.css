@@ -5,10 +5,35 @@ h1 {
 
 h2 {
 	font-family: 'Raleway', sans-serif;
+	font-size:30px;
+}
+
+h3 {
+	font-size:20px;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
+}
+
+.tagline {
+	font-family:Arial;
+}
+
+.entry_links:link, .entry_links:visited {
+  background-color: #0B5351;
+  color: white;
+  padding-left: 10px;
+  padding-right:100px;
+  padding-top:-20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.entry_links:hover, .entry_links:active {
+  background-color: #D8DDEF;
+  color:black;
 }
 
 body {
@@ -65,4 +90,37 @@ body {
     display: block;
     text-align: left;
   }
+}
+
+.about_body {
+	font-size:18px;
+}
+
+.circle1 {
+  height: 50px;
+  width: 50px;
+  background-color: #5386E4;
+  border-radius: 50%;
+  margin-left:55px;
+}
+
+.circle2 {
+  height: 50px;
+  width: 50px;
+  background-color: #7D7ABC;
+  border-radius: 50%;
+  margin-left:55px;
+}
+
+.circle3 {
+  height: 50px;
+  width: 50px;
+  background-color: #EF6461;
+  border-radius: 50%;
+  margin-left:55px;
+}
+
+.tools {
+	background:white;
+	text-align:center;
 }

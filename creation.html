@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Playground</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link href="reset.css" type="text/css" rel=stylesheet>
+    	<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova|Raleway&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<div class="topnav" id="myTopnav">
+  			<a href="index.html">home.</a>
+  			<a href="about.html" class="active">about.</a>
+  			<a href="#contact">Contact</a>
+ 			<a href="#about">About</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+  			</a>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col l12 offset-l2 m6 s12">
+					<br>
+					<h1>The Creation of Playground</h1>
+					<h2>Jan. 12, 2020</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col l7 offset-l2">
+					<p class="about_body">
+						I'm so excited to be typing these words right now, because it means I have successfully (<i>finally</i>) created Playground! If you've visited my 'About' page, you may already know what Playground is. In short, it is a place for me to document the things I do in my free time having to do with data, computers, data viz, programming and anything else that excites me. In this first post, I am going to walk you through how I created Playground, from start to finish.
+					</p>
+					<br>
+				<p class="about_body">
+					Firstly, let's look at the tools I used: 
+				</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col l2 offset-l3 m12 s12">
+					<div class="tools">
+						<div class="circle1"></div>
+						<p>HTML</p>
+					</div>
+				</div>
+
+				<div class="col l2 m12 s12">
+					<div class="tools">
+						<div class="circle2"></div>
+						<p>CSS</p>
+					</div>
+				</div>
+
+				<div class="col l2 m12 s12">
+					<div class="tools">
+						<div class="circle3"></div>
+						<p>Github/Git</p>
+					</div>
+				</div>
+			</div> 
+
+			<div class="row">
+				<div class="col l7 offset-l2">
+					<h2>HTML</h2>
+					<p class="about_body">The foundation of this site, as with most sites, is HTML, or the structure of elements on a webpage. Playground was coded by me from scratch in Sublime Text, which is a free text editor where you can write computer code and save it as a file on your computer. One of the reasons I like Sublime Text is because you can easily preview your code by right-clicking and selecting "open in browser."</p>
+					<br>
+					<p class="about_body">All of the pages on Playground are structured with <a href="https://materializecss.com/grid.html">Materialize grids</a>.</p>
+					<br>
+					<p class="about_body">The navigation bar at the top of earch page was created using <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">this tutorial</a> from W3Schools, which is one of my favorite resources for all things HTML and CSS. The navigation bar is a mixture of HTML, CSS, and JavaScript elements.</p>
+					<br>
+					<p class="about_body">The trickiest piece of HTML on this site thus far has been the tool circles seen on this page. The position of the circles directly above the text was not something I was able to do using a "text-align" attribute. This is frustrating because it means they may look different depending on what type of browser or device someone is viewing the page on.</p>
+					<br>
+					<p class="about_body">My code is publicly availible on <a href="https://github.com/ashlyngohara/playground">Github</a>, but see below what the code for this page looks like when I edit it:</p>
+					<br>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col l7 offset-l2">
+					<iframe width="600" height="315" src="https://www.youtube.com/embed/Za70beQlJz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+
+	<script>
+		function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav") {
+    	x.className += " responsive";
+  		} else {
+    	x.className = "topnav";
+  		}
+		}
+		</script>
+	</body>
+</html>
