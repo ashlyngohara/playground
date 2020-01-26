@@ -16,7 +16,7 @@
 	<body>
 		<div class="topnav" id="myTopnav">
   			<a href="index.html">home.</a>
-  			<a href="about.html" class="active">about.</a>
+  			<a href="about.html">about.</a>
   			<a href="#contact">Contact</a>
  			<a href="#about">About</a>
   			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -36,20 +36,34 @@
 			<div class="row">
 				<div class="col l7 offset-l2">
 					<p class="about_body">
-						This was a small exercise I did over my winter break just to see if there was a way to make sense of all the bills pre-filed in the Missouri House of Representatives.
+						This was a small exercise I did over my winter break to see if pre-filed bills in the Missouri House of Representatives could be used to predict the priorities of lawmakers during the Spring 2020 session.
 					</p>
+					
+					<p class="about_body">
+						<b><u>Goal</u></b>: Quantify and visualize priorities of Missouri representatives during the Spring 2020 legislative session
+						<br><br>
+						<b><u>Successful?</u></b>: Technically
+						</p>
 					<br>
 					<p class="about_body">
-						Let's start by looking at the tools I used: 
+						Tools used: 
 					</p>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col l2 offset-l3 m12 s12">
+				<div class="col l2 offset-l2 m12 s12">
 					<div class="tools">
 						<div class="circle1"></div>
 						<p>HTML</p>
+					</div>
+				</div>
+
+			<div class="row">
+				<div class="col l2 m12 s12">
+					<div class="tools">
+						<div class="circle4"></div>
+						<p>Python</p>
 					</div>
 				</div>
 
@@ -62,6 +76,22 @@
 
 				<div class="col l2 m12 s12">
 					<div class="tools">
+						<div class="circle5"></div>
+						<p>Excel</p>
+					</div>
+				</div>
+			</div>
+
+				<div class="col l2 offset-l2 m12 s12">
+					<div class="tools">
+						<div class="circle6"></div>
+						<p>Scraping</p>
+					</div>
+				</div>
+
+			<div class="row">
+				<div class="col l2 m12 s12">
+					<div class="tools">
 						<div class="circle3"></div>
 						<p>Github/Git</p>
 					</div>
@@ -70,16 +100,61 @@
 
 			<div class="row">
 				<div class="col l7 offset-l2">
-					<h2>A Google Scraper</h2>
-					<p class="about_body">The foundation of this site, as with most sites, is HTML, or the structure of elements on a webpage. Playground was coded by me from scratch in Sublime Text, which is a free text editor where you can write computer code and save it as a file on your computer. One of the reasons I like Sublime Text is because you can easily preview your code by right-clicking and selecting "open in browser."</p>
+					<h2>Task sequence</h2>
+					<p class="about_body">
+						<ol>
+							<li>Download CSV of prefiled bills and bill summary from House website</li>
+							<li>Attempt to use pivot tables and spotlight search in Excel to find word patterns</li>
+							<li>Scrape an ordered list from state site using a Google scraper</li>
+							<li>Clean scraped file in Excel</li>
+							<li>Open scraped file in a Jupyter Notebook</li>
+							<li>Used Agate library (and the assistance of my former professor James Gordon) to create a key and print a count of every word</li>
+							<li>Opened resulting file in Excel</li>
+							<li>Voila!</li>
+						</ol>
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col l7 offset-l2">
+					<h2>Final results</h2>
+					<p class="about_body">
+						<iframe width="650" height="315" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRbhbvCYLvJzMk8bKb6WgeG5XmDGV7Pcd85oIKVrDCGLgpQ7mUX4S7Dpb24JR3cg7-lwtXRnElACHkY/pubhtml?widget=true&amp;headers=false"></iframe>
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col l7 offset-l2">
+					<h2>Conclusion</h2>
+					<p class="about_body">This method could be used to succesfully quantify prefiled bill in the Missouri House of Representatives, however there are probably less clunky ways to do it.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col l7 offset-l2">
+					<h2>Read more</h2>
+					<p class="about_body">A piece of data journalism advice I heard recently and thought was really insightful came from one of my infographics professors here at the University of Missouri, Laura Stanton, who said something to the effect of: think about which stories your outlet covers every year and figure out how to tell it differently this year. Though this could be broadly applied to all areas generally, but I find it of particular interest to visual journalists.</p>
 					<br>
-					<p class="about_body">All of the pages on Playground are structured with <a href="https://materializecss.com/grid.html">Materialize grids</a>.</p>
+					<p class="about_body">In my final semester at Mizzou, I am doing my advanced reporting class on the state government beat. I worked on the state government beat in the Spring of 2019 and, though I had already declared a data journalism concentration, I produced zero data stories. Each day, at the beginning of my ~7 hour shift, I would have a hearing or meeting to cover so I would attend, take notes and grab quotes, write a story on deadline and it would be filed and live before I even left the building.</p>
 					<br>
-					<p class="about_body">The navigation bar at the top of earch page was created using <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">this tutorial</a> from W3Schools, which is one of my favorite resources for all things HTML and CSS. The navigation bar is a mixture of HTML, CSS, and JavaScript elements.</p>
+					<p class="about_body">While efficient for the operation of a daily news outlet, like the Missourian, for me the fast-paced environment meant I wasn't really thinking about anything other than the task at hand. Maybe this was a mistake on my part. Being back on the state gov beat this semester, both as an advanced reporter and as a graphics reporter, means I have been thinking more criticially about my professor's quote and which stories, now that I can use my experience to anticipate, are coming up and which could benefit from visuals.</p>
 					<br>
-					<p class="about_body">The trickiest piece of HTML on this site thus far has been the tool circles seen on this page. The position of the circles directly above the text was not something I was able to do using a "text-align" attribute. This is frustrating because it means they may look different depending on what type of browser or device someone is viewing the page on.</p>
+					<p class="about_body">That is how I ended up here. One of the things that happens in state legislatures is quite obvious: lawmakers file bills. Sometimes, they even prefile them. Reading the summary texts of pre-filed bills can sometimes give reporters an idea of what the priorities for the session might be.</p>
 					<br>
-					<p class="about_body">My code is publicly availible on <a href="https://github.com/ashlyngohara/playground">Github</a>, but see below what the code for this page looks like when I edit it:</p>
+					<p class="about_body">I started to think about whether or not there was a way to quantify lawmakers' priorities for the 2020 session. At first, I downloaded the list of pre-filed bills and their summary texts and opened the file in Excel. Using PivotTables and spotlight searching, I unsuccessfully attempted to list a count of every word in the document, thinking that after words such as "the" and "of" would come ones like "tax" or "healthcare."</p>
+					<br>
+					<p class="about_body">It turns out this is a bit harder to do than I realized. To start, the .csv file offered on the state's website does not have a field for "subject" despite users being able to sort bills by subject on the state's site. My solution was to scrape the subject table, which was not availible to download.</p>
+					<br>
+					<p class="about_body">I used this scraper, which I learned at a Google seminar:</p>
+					<p class="about_body"><b>=ImportHTML("url", "element", number order of element)<br><br>#url - link your are scraping #element - HTML tage, like a "table" or a "list"</b></p>
+					<br>
+					<p class="about_body">I then opened the file in Excel and found that I was unable to display a list of counts of each word's appearance in the document over all using spotlight searches or Pivot Tables. I then opened the file in a Jupyter Notebook and used the Python library Agate to create a key that <i>was</i> able to successfully count the number of times each word appeared.</p>
+					<br>
+					<p class="about_body">Finally, I exported the resulting table to a .csv where I cleaned and ordered the data into the table above.</p>
 					<br>
 				</div>
 			</div>
