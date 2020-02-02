@@ -96,15 +96,15 @@ body {
 	font-size:18px;
 }
 
-.circle1 {
+.html {
   height: 50px;
   width: 50px;
   background-color: #5386E4;
   border-radius: 50%;
-  margin-left:55px;
+  margin-left:45px;
 }
 
-.circle2 {
+.css {
   height: 50px;
   width: 50px;
   background-color: #7D7ABC;
@@ -112,7 +112,7 @@ body {
   margin-left:55px;
 }
 
-.circle3 {
+.github {
   height: 50px;
   width: 50px;
   background-color: #EF6461;
@@ -120,7 +120,7 @@ body {
   margin-left:55px;
 }
 
-.circle4 {
+.python {
   height: 50px;
   width: 50px;
   background-color: #FCFC62;
@@ -128,7 +128,7 @@ body {
   margin-left:55px;
 }
 
-.circle5 {
+.excel {
   height: 50px;
   width: 50px;
   background-color: #82C09A;
@@ -136,7 +136,7 @@ body {
   margin-left:55px;
 }
 
-.circle6 {
+.scraping {
   height: 50px;
   width: 50px;
   background-color: #F06543;
@@ -144,6 +144,13 @@ body {
   margin-left:55px;
 }
 
+.illustrator {
+  height: 50px;
+  width: 50px;
+  background-color: #EF476F;
+  border-radius: 50%;
+  margin-left:45px;
+}
 
 .tools {
 	background:white;
